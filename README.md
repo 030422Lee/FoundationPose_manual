@@ -37,3 +37,30 @@ Once the **RGB and Depth images** are prepared, a **mask** is required.
 
 #### ⚠️ Important Notes
 - Ensure that the saved **image path** matches the expected directory structure for the model.
+
+### 3️⃣ CAD Model
+
+You will need a **CAD model** that matches your object of interest.  
+However, the key point is that **this model uses meters as the unit** for CAD models.  
+
+#### ⚠️ Important Notes
+- If you are using **Blender**, make sure to apply a **1000x scaling** to convert from millimeters to meters.
+
+---
+
+### 4️⃣ cam_K.txt (Camera Intrinsics)
+
+The file **cam_K.txt** should store the intrinsic parameters of the camera being used. If you are using a simulation environment, you can retrieve these parameters by running the following command:
+
+```bash
+rostopic echo /camera_info
+```
+
+For a real-world setup, you will need to go through a **camera calibration** process to obtain these values.
+
+# Final Steps
+
+Once these steps are completed, all necessary data is prepared. In the `run_demo` script, use `argparse` to specify the required file paths. This step is straightforward. If you encounter any issues, feel free to reach out. I will assist as much as possible.
+
+Contact: cseklee234@naver.com
+
