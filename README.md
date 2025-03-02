@@ -1,4 +1,4 @@
-## FoundationPose Execution Guide
+![image](https://github.com/user-attachments/assets/d45b04cc-034d-44ad-9d5b-03fd234b7d36)## FoundationPose Execution Guide
 
 This page provides a guide to running the **FoundationPose** model easily and summarizes potential issues that may arise. Hope this helps!
 
@@ -7,6 +7,7 @@ It is assumed that the **[official FoundationPose repository](https://github.com
 ## 📂 Required Data for Model-based Execution
 
 To run this model using the **Model-based (CAD model available) approach**, you need to prepare the following five types of data.
+![image](https://github.com/user-attachments/assets/847fd22c-90b3-485a-8245-e68b2a9a8b5b)
 
 ### 1️⃣ RGB & Depth
 - **RGB Image**: Standard RGB images in `.png` format, saved with matching timestamps.
