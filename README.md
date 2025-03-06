@@ -60,7 +60,12 @@ For a real-world setup, you will need to go through a **camera calibration** pro
 
 # Final Steps
 
-Once these steps are completed, all necessary data is prepared. In the `run_demo` script, use `argparse` to specify the required file paths. This step is straightforward. If you encounter any issues, feel free to reach out. I will assist as much as possible.
+Once these steps are completed, all necessary data is prepared. In the `run_demo` script, use `argparse` to specify the required file paths. This step is straightforward. 
+![image](https://github.com/user-attachments/assets/85c44601-fe49-4b7e-9e53-e7a1c5ca66e2)
+![image](https://github.com/user-attachments/assets/0e8ffb51-70a6-4524-a528-48701db3e46a)
+
+
+If you encounter any issues, feel free to reach out. I will assist as much as possible.
 
 Contact: cseklee234@naver.com
 
